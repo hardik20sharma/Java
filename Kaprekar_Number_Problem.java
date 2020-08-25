@@ -18,6 +18,7 @@ public class Kaprekar_Number_Problem
          System.out.println("Kaprekar Number");
       else
          System.out.println("Not a Kaprekar Number");
+      
       scan.close();
    }
 }
