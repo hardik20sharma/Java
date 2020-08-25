@@ -6,7 +6,7 @@ public class Handshake_Problem
    {
       Scanner scan = new Scanner(System.in);
       Integer n = scan.nextInt();
-      System.out.println( (n * (n-1) )/ 2);
+      System.out.println( (n * (n-1)) / 2);
       scan.close();
    }
 }
