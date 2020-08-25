@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class Handshake_Problem
 {
    public static void main(String[] args)
