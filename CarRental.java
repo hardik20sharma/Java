@@ -5,7 +5,7 @@ public class CarRental
 	String renter_Name, size;
 	int zipcode, days;
 	double daily_Fees, total_Fees;
-	
+
 	CarRental() { }
 	CarRental(String renter_Name, String size, int zipcode, int days)
 	{
@@ -23,7 +23,7 @@ public class CarRental
 		
 		total_Fees = daily_Fees * days;
 	}
-	
+
 	public void display()
 	{
 		System.out.println("Renter's Name: " + renter_Name);
