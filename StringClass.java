@@ -1,7 +1,7 @@
 package stirngs;
 
-public class StringClass {
-
+public class StringClass
+{
 	public static void main(String[] args) 
 	{
 		//Program 1
@@ -14,7 +14,7 @@ public class StringClass {
 		//System.out.print(s3);
 		
 		//Program 3
-		String s1="De", num = "10014527357", s3;
+		String s1 = "De", num = "10014527357", s3;
 		if(s1.length() >= 4)
 			s3 = s1.substring(0, 4) + num.substring(num.length() - 4, num.length());
 		else
@@ -22,7 +22,6 @@ public class StringClass {
 		System.out.print(s3);
 	}
 }
-
 //subString() - extracts substring form a string
 //StringBuilder and StringBuffer
 //StringBuilder eventString = new StringBuilder ("Hello There");
