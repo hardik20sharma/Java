@@ -20,7 +20,7 @@ abstract class Element
 //		this.atomic_weight = atomic_weight;
 //	}
 	
-	public String get_Symbol()			{ return symbol; 		}
+	public String get_Symbol()		{ return symbol; }
 	public int get_Atomic_Number()		{ return atomic_number; }
 	public double get_Atomic_weight()	{ return atomic_weight; }
 	
