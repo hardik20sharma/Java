@@ -1,7 +1,8 @@
 package prac;
 import java.util.Random;
 
-public class SimilarCharInStringTogether {
+public class SimilarCharInStringTogether
+{
 	public static void main(String[] args)
 	{
 	    int[] arr = new int[21];
